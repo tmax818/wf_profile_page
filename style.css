@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f3f3f3;
+    font-family: Roboto, sans-serif;
+}
+
+.body-container {
+    display: flex;
+    margin: 0 75px 0 75px ;
+}
+
+.col-left {
+    flex: 2;
+    margin: 10px;
+    padding: 20px;
+
+}
+.col-right {
+    flex: 1;
+    margin: 10px;
+    padding: 20px;
+
+}
+
+.nav a {
+    text-decoration: none;
+    color: white;
+    margin: 5px;
+    padding: 10px 10px 10px 10px;
+}
+
+.nav {
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    margin: -8px;
+    height: 75px;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-between;
+    margin: 22px 73px;
+}
+
+.btn {
+    background-color: #17A2B8;
+    color: white;
+    padding: 5px 5px 5px 5px;
+    margin: 27px 90px 17px 9px;
+}
+
+.nav-title {
+    margin-left: 20px;
+}
+
+.flex-container {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.user-card {
+    width: 100%;
+    background-color: #fff;
+    border: 2px solid #999;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    overflow: hidden;
+}
+
+.box-card {
+    width: 100%;
+    background-color: #fff;
+    border: 2px solid #999;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+}
+
+.card-header {
+    background-color: #17a2b8;
+    height: 125px;
+    margin-bottom: 60px;
+}
+
+.box-header {
+    background-color: #333;
+    display: flex;
+    justify-content: flex-start;
+    color: white;
+    height: 1.5rem;
+    margin-bottom: 5px;
+    padding: 15px 10px 20px 20px;
+}
+
+.box-header h2 {
+    padding-top: 8px;
+    font-size: 1rem;
+}
+.card-body {
+    padding: 20px;
+}
+
+.counter {
+    background-color: #a7a7a7;
+    border-radius: 50%;
+    color: black;
+    width: 20px;
+    height: 20px;
+    padding: 5px;
+    margin-right: 10px;
+    text-align: center;
+
+}
+.counter-2 {
+    background-color: #a7a7a7;
+    border-radius: 50%;
+    color: black;
+    width: 40px;
+    height: 20px;
+    padding: 5px;
+    margin-right: 10px;
+    text-align: center;
+
+}
+
+.box-body {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+}
+
+.card-body h1,
+.card-body h2,
+.card-body h3,
+.card-body p {
+    margin: 20px 0;
+}
+
+.avatar-m {
+    border-radius: 50%;
+    background-color: #fff;
+    height: 190px;
+    padding: 5px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.icon-s {
+    height: 20px;
+    margin-right: 10px;
+}
+
+.icon-m {
+    height: 20px;
+}
+
+a {
+    color: #3a81e6;
+}
